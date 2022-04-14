@@ -1,38 +1,63 @@
-.App {
+.search-area {
   text-align: center;
+  position: relative;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#searchInput {
+  text-align: center;
+  color: rgb(22, 21, 22);
+  background-color: rgb(255, 254, 254);
+  border-radius: 50px;
+  border-color: rgb(178, 162, 194);
+  border-width: 1px;
+  width: 200px;
+  margin: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#searchButton {
+  color: rgb(22, 21, 22);
+  background-color: rgb(255, 254, 254);
+  border-radius: 50px;
+  border-color: rgb(178, 162, 194);
+  margin: 10px;
+  border-width: 1px;
+  width: 90px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.info-area {
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 380px;
+  height: 450px;
+  background-color: rgb(231, 231, 231);
+  opacity: 0.6;
+  box-shadow: 0 0 20px 9px rgb(59, 84, 116);
+  border-radius: 35px;
+  padding: 5px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  color: rgb(34, 49, 70);
+  font-size: 3rem;
+}
+body {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.daily-item {
+  list-style-type: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.info-text {
+  margin-top: 20px;
+}
+.error-message {
+  text-align: center;
+}
+header {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(34, 49, 70);
 }
